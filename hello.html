@@ -5,10 +5,20 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        <p id="demo"></p> 
+        <p id="demo"></p>
+        <button onclick="myFunction()">Check Me </button>
+        <form>
+            <input type="text" placeholder="your name">
+        </form>
         <script>
             var x = document.getElementById("demo"); 
-            x.innerHTML = "ths is the Lord"; 
+            x.innerHTML = "ths is the Lord";
+
+            function myFunction(){
+                var text = "Thank you for check on me, i so grateful for that, thank you so much";
+                x.innerHTML = text;
+
+            }
         </script> 
 
     </body>
